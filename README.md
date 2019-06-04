@@ -1,6 +1,11 @@
-# Ultimaker Cura 3.3+ printer profile
+# Ultimaker Cura 3.2+ printer profile
 
-My take on MPMD profile for Ultimaker Cura 3.3+.
+My take on MPMD profile for Ultimaker Cura 3.2+.
+
+Tested to be working with Cura 3.2 up to 3.4.1 and MPMD firmware v41.  
+Be advised newer Mini Deltas (firmware v43) have improved stepper drivers with better resolution.  
+Please use this [M92 line](https://github.com/ysoldak/MPMD-CuraSettings/blob/master/definition_changes/Monoprice%2BMini%2BDelta_settings.inst.cfg#L20) instead if you're using firmware 43 & up  
+`M92 X114.28 Y114.28 Z114.28 E97.00`
 
 Inspired by [Brian Corbino's Cura 3.2 profile](https://www.mpminidelta.com/slicers/cura)  
 Inherits from [default Cura fdmprinter definition](https://github.com/Ultimaker/Cura/blob/master/resources/definitions/fdmprinter.def.json)
@@ -54,6 +59,7 @@ Rest is documented in the code itself and probably going to change form time to 
 - [Advanced Delta Printer Calibration](https://www.thingiverse.com/thing:745523)
 - [3D Benchy](https://www.thingiverse.com/thing:763622)
 - [Overhang / Cooling Test](https://www.thingiverse.com/thing:2699454/)
+- [Triffid Hunter's Calibration Guide](https://reprap.org/wiki/Triffid_Hunter%27s_Calibration_Guide)
 
 ### 3D print tips and troubleshooting
 
@@ -62,3 +68,4 @@ Rest is documented in the code itself and probably going to change form time to 
 - [Relative extrusion](http://www.sublimelayers.com/2017/10/to-extruder-relative-or-not-to-extrude.html)
 - [Retraction: Just say "No" to oozing](https://www.matterhackers.com/articles/retraction-just-say-no-to-oozing)
 - [Troubleshooting by S3D](https://www.simplify3d.com/support/print-quality-troubleshooting/)
+- [Best Support Settings for 3D Printing](https://www.instructables.com/id/Best-Support-Settings-for-3D-Printing/)
